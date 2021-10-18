@@ -1,0 +1,28 @@
+{
+  "name": "directus-draw-interface",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@directus/extension-sdk": "^9.0.0-rc.90"
+  },
+  "directus:extension": {
+    "type": "interface",
+    "path": "dist/index.js",
+    "source": "src/index.js",
+    "host": "^9.0.0-rc.90",
+    "hidden": false
+  },
+  "dependencies": {
+    "nanoid": "^3.1.25",
+    "signature_pad": "^3.0.0-beta.4",
+    "vue": "3.2.4",
+    "vue-i18n": "9.1.7"
+  }
+}
